@@ -1,7 +1,7 @@
 on: push
 jobs:
   build:
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: Registry package event
         run: echo "A package was created or updated in the registry"
