@@ -3,51 +3,51 @@ on:
 jobs:
   Job1:
     name: Job 1
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job2:
     needs: Job3
     name: Job 2
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job3:
     needs: Job1
     name: Job 3
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job4:
     name: Job 4
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job5:
     name: Job 5
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job6:
     name: Job 6
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job7:
     name: Job 7
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job8:
     name: Job 8
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
@@ -59,133 +59,133 @@ jobs:
         run: sleep 60
   Job10:
     name: Job 10
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job11:
     name: Job 11
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job12:
     name: Job 12
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job13:
     name: Job 13
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job14:
     name: Job 14
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job15:
     name: Job 15
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job16:
     name: Job 16
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job17:
     name: Job 17
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job18:
     name: Job 18
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job19:
     name: Job 19
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job20:
     name: Job 20
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job21:
     name: Job 21
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job22:
     name: Job 22
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job23:
     name: Job 23
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job24:
     name: Job 24
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job25:
     name: Job 25
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job26:
     name: Job 26
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job27:
     name: Job 27
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60
   Job28:
     name: Job 28
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
     - name: sleep
       run: sleep 5
   Job29:
     name: Job 29
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: slep 3
   Job30:
     name: Job 30
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep 
         run: sleep 30 
   Job31:
     name: Job 31
-    runs-on: ubuntu-cloud-runner
+    runs-on: ubuntu-latest
     steps:
       - name: sleep
         run: sleep 60 
