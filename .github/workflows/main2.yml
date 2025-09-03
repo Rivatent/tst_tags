@@ -1,5 +1,7 @@
 on:
-  [push, pull_request, pull_request_target]
+  push:
+    tags:
+      - '*'  # этот шаблон означает запуск при любом теге
 jobs:
   Job1:
     name: Job 1
