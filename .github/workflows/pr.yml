@@ -1,0 +1,9 @@
+on:
+  pull_request:
+jobs:
+  Job1:
+    name: Job 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: sleep
+        run: echo "shalalaalal"
